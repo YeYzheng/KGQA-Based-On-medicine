@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yso</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/normalize_1.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/htmleaf-demo.css">
+	<link rel="stylesheet" href="/static/css/style.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>Yso
+                <span>Hello，我是Yso,是一个集自然语言处理，统计机器学习和知识图谱，有关医药领域的自动问答系统。目前Yso只支持疾病症状、疾病用药、药品查询等功能，
+                并且只支持如下形式的提问：</span>
+                <span style = "font-size:13px;">某疾病有什么并发症？ （蜘蛛咬伤有什么并发症？）</span>
+                <span style = "font-size:13px;">怎么预防某疾病？某疾病有哪些预防措施？ （怎么预防蜘蛛咬伤？蜘蛛咬伤有哪些预防措施？）</span>
+                <span style = "font-size:13px;">某疾病的概述是什么？ （蜘蛛咬伤的概述是什么？）</span>
+                <span style = "font-size:13px;">怎么治疗某疾病？某疾病的治疗措施是什么？ （蜘蛛咬伤怎么治？）</span>
+                <span style = "font-size:13px;">某药品的功效/疗效是什么？/某药品有什么用？ （阿卡波糖片疗效是什么？）</span>
+                <span style = "font-size:13px;">某药品的批准文号是什么？ （阿卡波糖片的批准文号是什么？）</span>
+                <span style = "font-size:13px;">某症状的概述是什么？/某症状有什么特征？ （肌肉疼痛的概述是什么？）</span>
+                <span style = "font-size:13px;">怎么预防某症状？ （怎么预防肌肉疼痛？）</span>
+                <span style = "font-size:13px;">某疾病需要什么药治？/应该用什么药治疗某疾病？/有什么药可以治疗某疾病？ （胃窦炎需要什么药治？）</span>
+                <span style = "font-size:13px;">某疾病有什么症状/症候/特征？ （喉插管损伤有什么症状？）</span>
+                <span style = "font-size:13px;">某症状可能得了什么病？ （我出现喉痒咳嗽，应该得了什么病？）</span>
+            </h1>
+		</header>
+		<div class="search d2">
+		  <form action="/kgqa-demo" method="post">
+              {% csrf_token %}
+		  <input type="text" placeholder="请输入你的问题..." name="q">
+		  <button type="submit"></button>
+		  </form>
+            <p style="font-family:arial;color:black;font-size:30px;">{{ rlt }}</p>
+		</div>
+        <span style = "font-size:13px;">By YYZ at 2018/03/18</span>
+	</div>
+</body>
+</html>
