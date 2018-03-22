@@ -1,0 +1,5 @@
+jieba==0.39
+SPARQLWrapper==1.8.1
+REfO==0.13
+Django==2.0.3
+
