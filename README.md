@@ -28,9 +28,9 @@
     * 上述操作配置好后，再次运行fuseki-server.bat，开启Apache Jena Fuseki 服务
 * 安装python环境需要的包
 ```python
-pip install requenment.txt
+pip install requirements.txt
 ```
-* 这里需要修改项目代码中setting.py文件中的字典导入路劲，因为我们的文件路劲可能不一样。
+* 这里需要修改项目代码中setting.py文件中的字典导入路劲，因为我们的文件路径可能不一样。
 * 运行KB_query文件夹中的query_main.py，开启命令行模式。
 ```python
 python query_main.py
@@ -54,3 +54,6 @@ python manage.py runserver
 * 增加疾病推断功能
 * 增加多轮式对话功能
 * 重新设计页面UI
+
+# 参考
+[基于 REfO 的 KBQA 实现及示例](http://www.openkg.cn/tool/refo-kbqa)
