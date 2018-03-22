@@ -1,7 +1,9 @@
 # 基于医药知识图谱的智能问答系统
 * 这是一个基于Python模块REfO实现的知识库问答初级系统. 该问答系统可以解析输入的自然语言问句生成 SPARQL 查询，进一步请求后台基于TDB知识库的Apache Jena Fuseki 服务, 进而得到问题的结果。
 * 提供疾病症状、疾病用药、药品查询等功能。
-
+# demo演示
+![](Image/kgqa-demo-1.png 'Image-1')
+![](Image/kgqa-demo-2.png 'Image-2')
 # 需要环境
 * python3.5.2开发环境
     * 安装jieba中文分词组件
@@ -11,7 +13,7 @@
     * apache-jena-fuseki，开启Apache Jena Fuseki 服务
 * Java环境，Apache Jena需要在Java环境下运行
 * 数据
-    * TDB药品疾病知识库   
+    * [TDB药品疾病知识库](https://pan.baidu.com/s/1zeLYseph1RbBOtZDJ3Cuig)   
 
 # 怎么运行
 * 下载TDB药品疾病知识库数据 & clone项目代码
