@@ -13,7 +13,7 @@
     * apache-jena-fuseki，开启Apache Jena Fuseki 服务
 * Java环境，Apache Jena需要在Java环境下运行
 * 数据
-    * [TDB药品疾病知识库](https://pan.baidu.com/s/1zeLYseph1RbBOtZDJ3Cuig)   
+    * [TDB药品疾病知识库](https://pan.baidu.com/s/1V7yqs4HKcQYJqDznf2MbSA)   
 
 # 怎么运行
 * 下载TDB药品疾病知识库数据 & clone项目代码
