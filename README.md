@@ -1,7 +1,7 @@
 # 基于医药知识图谱的智能问答系统
 * 这是一个基于Python模块REfO实现的知识库问答初级系统. 该问答系统可以解析输入的自然语言问句生成 SPARQL 查询，进一步请求后台基于TDB知识库的Apache Jena Fuseki 服务, 进而得到问题的结果。
 * 提供疾病症状、疾病用药、药品查询等功能。
-# demo演示
+* [demo演示](http://120.78.207.99:8000/kgqa-demo)
 ![](Image/kgqa-demo-1.png 'Image-1')
 ![](Image/kgqa-demo-2.png 'Image-2')
 # 需要环境
@@ -13,7 +13,7 @@
     * apache-jena-fuseki，开启Apache Jena Fuseki 服务
 * Java环境，Apache Jena需要在Java环境下运行
 * 数据
-    * [TDB药品疾病知识库](https://pan.baidu.com/s/1zeLYseph1RbBOtZDJ3Cuig)   
+    * [TDB药品疾病知识库](https://pan.baidu.com/s/1V7yqs4HKcQYJqDznf2MbSA)   
 
 # 怎么运行
 * 下载TDB药品疾病知识库数据 & clone项目代码
@@ -28,9 +28,9 @@
     * 上述操作配置好后，再次运行fuseki-server.bat，开启Apache Jena Fuseki 服务
 * 安装python环境需要的包
 ```python
-pip install requenment.txt
+pip install requirements.txt
 ```
-* 这里需要修改项目代码中setting.py文件中的字典导入路劲，因为我们的文件路劲可能不一样。
+* 这里需要修改项目代码中setting.py文件中的字典导入路劲，因为我们的文件路径可能不一样。
 * 运行KB_query文件夹中的query_main.py，开启命令行模式。
 ```python
 python query_main.py
@@ -54,3 +54,6 @@ python manage.py runserver
 * 增加疾病推断功能
 * 增加多轮式对话功能
 * 重新设计页面UI
+
+# 参考
+[基于 REfO 的 KBQA 实现及示例](http://www.openkg.cn/tool/refo-kbqa)
