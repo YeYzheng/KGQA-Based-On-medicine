@@ -1,7 +1,7 @@
 # 基于医药知识图谱的智能问答系统
 * 这是一个基于Python模块REfO实现的知识库问答初级系统. 该问答系统可以解析输入的自然语言问句生成 SPARQL 查询，进一步请求后台基于TDB知识库的Apache Jena Fuseki 服务, 进而得到问题的结果。
 * 提供疾病症状、疾病用药、药品查询等功能。
-* [demo演示](http://120.78.207.99:8000/kgqa-demo)
+* demo演示
 ![](Image/kgqa-demo-1.png 'Image-1')
 ![](Image/kgqa-demo-2.png 'Image-2')
 # 需要环境
