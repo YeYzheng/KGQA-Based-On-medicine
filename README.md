@@ -23,7 +23,7 @@
     *  将项目代码apache_configuration文件夹下的kgdrug.tll和rules.tll文件移动到“run”文件夹下。
         * kgdrug.tll：知识库本体文件
         * rules.tll：规则推理配置文件
-    * 将项目代码confi文件夹下的fuseki_conf.ttl文件移动到“run”文件夹下。
+    * 将项目代码apache_configuration文件夹下的fuseki_conf.ttl文件移动到“run”文件夹下。
         * fuseki_conf.ttl：Fuseki配置文件，主要配置上述两个文件的路径和TDB知识库路径
     * 上述操作配置好后，再次运行fuseki-server.bat，开启Apache Jena Fuseki 服务
 * 安装python环境需要的包
