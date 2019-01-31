@@ -20,7 +20,7 @@
 * 开启Apache Jena Fuseki 服务
     *  将TDB数据和Apache Jena Fuseki放在同一个目录下。
     *  进入Apache Jena Fuseki文件夹，运行fuseki-server.bat，然后退出。程序为我们在当前目录自动创建“run”文件夹
-    *  将项目代码confi文件夹下的kgdrug.tll和rules.tll文件移动到“run”文件夹下。
+    *  将项目代码apache_configuration文件夹下的kgdrug.tll和rules.tll文件移动到“run”文件夹下。
         * kgdrug.tll：知识库本体文件
         * rules.tll：规则推理配置文件
     * 将项目代码confi文件夹下的fuseki_conf.ttl文件移动到“run”文件夹下。
